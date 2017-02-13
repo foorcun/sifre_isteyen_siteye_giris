@@ -9,6 +9,6 @@ url_auth=requests.get(url, auth=HTTPBasicAuth('kamacif', 'UYsKG983BW'))
 ##login denemesi yapar dondurdugu 200 ise giriş yapılmştr
 
 
-url_a="http://ssb.sis.itu.edu.tr:9000/pls/PROD/twbkwbis.P_WWWLogin/?SessionId=a14fa7d5-dc39-4f69-b2da-3c2695f46c9b" ##login basarılı olunca yonlendırılen url
-webbrowser.open(url_a)
+url_pin="http://ssb.sis.itu.edu.tr:9000/pls/PROD/twbkwbis.P_WWWLogin/?SessionId=a14fa7d5-dc39-4f69-b2da-3c2695f46c9b" ##login basarılı olunca yonlendırılen url
+webbrowser.open(url_pin)
 
